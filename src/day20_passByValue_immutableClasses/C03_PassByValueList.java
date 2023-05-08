@@ -1,0 +1,44 @@
+package day20_passByValue_immutableClasses;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class C03_PassByValueList {
+    public static void main(String[] args) {
+
+        List<String> harfler = new ArrayList<>();
+        harfler.add("A");
+        harfler.add("K");
+        harfler.add("Z");
+
+        System.out.println("method call oncesi list : " + harfler);
+        System.out.println("method 1 call`dan donen List : " + method1(harfler));
+        System.out.println("method 1 call`dan sonra list : " + harfler);
+
+        System.out.println("*******************");
+
+        System.out.println("method call oncesi list : " + harfler);
+        System.out.println("method 2 call`dan donen List : " + method2(harfler));
+        System.out.println("method 2 call`dan sonra list : " + harfler);
+
+    }
+
+    public static List<String> method1(List<String> harfler){
+
+        harfler.set(0,"T");
+        harfler.set(1,"C");
+        System.out.println("Method1 icinde List : " + harfler);
+
+        return harfler;
+    }
+
+
+    public static List<String> method2(List<String> harfler){
+
+        harfler=new ArrayList<>();
+        harfler.add("P");
+        System.out.println("Method 2 icinde harfler listesi : " + harfler);
+
+        return harfler;
+    }
+}
