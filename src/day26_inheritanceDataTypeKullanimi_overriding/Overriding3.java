@@ -24,6 +24,7 @@ public class Overriding3 extends Overriding2{
            mecburi degildir,
            silerseniz CTE olmaz
            bir class'da hem overridden method hem overriding method CALISMAZ
+
            Eger en guncel method ile birlikte
            parent class'da gecersiz kilinan (overridden)
            method'un da calismasini isterseniz
