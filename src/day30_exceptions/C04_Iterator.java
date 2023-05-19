@@ -59,6 +59,7 @@ public class C04_Iterator {
 
         Iterator itr = sayilar.iterator();
 
+     /*
         itr.next();
         itr.remove();
 
@@ -70,6 +71,13 @@ public class C04_Iterator {
 
         itr.next();
         itr.remove();
+      */
+
+        while (itr.hasNext()){
+            itr.next();
+            itr.remove();
+        }
+
         System.out.println(sayilar); // [] next diyip aldik sayiyi remove ile sildik. 4 sayi icin 4 tekrar
 
     }
