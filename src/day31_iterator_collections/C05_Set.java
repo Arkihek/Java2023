@@ -9,7 +9,7 @@ public class C05_Set {
     public static void main(String[] args) {
         // Uniqe bir list = set
 
-        Set<String> sinifList = new HashSet<>();
+        Set<String> sinifList = new HashSet<>(); 
 
         sinifList.add("Sahra");
         sinifList.add("Sevda");
