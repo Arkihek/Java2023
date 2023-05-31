@@ -19,7 +19,7 @@ public class C05_KeyValueBirlikteKullanma {
         // ogrenci numarasi verilen iki deger arasinda olan (sinir degerleri dahil)
         // tum ogrencilerin numara, isim, soyisim ve bolumlerini yazdirin
 
-        int basNo = 102;
+        int basNo = 90;
         int bitNo = 104;
 
         MapMethodlar.numaraAraligindakiOgrencileriYazdir(ogrenciMap,basNo,bitNo);
