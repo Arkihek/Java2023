@@ -1,7 +1,5 @@
-package day32_Maps;
+package day32_maps;
 
-import java.time.LocalDateTime;
-import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
 
